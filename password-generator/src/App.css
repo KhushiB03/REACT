@@ -1,0 +1,12 @@
+.vanta-bg {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: -1;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: sans-serif;
+  background: none; /* make sure we see Vanta */
+}
